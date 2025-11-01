@@ -49,7 +49,7 @@ The result is a numerical "fingerprint" for each message that captures its meani
 
 A neural network is a mathematical model inspired by how the brain processes information. It consists of layers of interconnected nodes (neurons) that learn to recognize patterns.
 
-### Our Network Architecture:
+### Network Architecture:
 
 ```
 Input Layer (5,000 numbers)
@@ -128,3 +128,30 @@ python spam_detection.py
 The script will train the model and output performance metrics plus sample predictions.
 
 **Output Example:**
+
+```text
+Message: I wish things were different. I wonder when i will be able to show you how much i value you. Pls continue the brisk walks no drugs without askin me please and find things to laugh about. I love you dearly.
+True label: ✅ ham, Predicted label: ✅ ham
+--------------------------------------------------------------------------------
+Message: tddnewsletter@emc1.co.uk (More games from TheDailyDraw) Dear Helen, Dozens of Free Games - with great prizesWith..
+True label: ❗spam, Predicted label: ❗spam
+--------------------------------------------------------------------------------
+Message: Oh, then your phone phoned me but it disconnected
+True label: ✅ ham, Predicted label: ✅ ham
+--------------------------------------------------------------------------------
+Message: Nope i'm not drivin... I neva develop da photos lei...
+True label: ✅ ham, Predicted label: ✅ ham
+--------------------------------------------------------------------------------
+Message: FREE UNLIMITED HARDCORE PORN direct 2 your mobile Txt PORN to 69200 & get FREE access for 24 hrs then chrgd@50p per day txt Stop 2exit. This msg is free
+True label: ❗spam, Predicted label: ❗spam
+--------------------------------------------------------------------------------
+Message: PRIVATE! Your 2003 Account Statement for shows 800 un-redeemed S.I.M. points. Call 08715203685 Identifier Code:4xx26 Expires 13/10/04
+True label: ❗spam, Predicted label: ❗spam
+--------------------------------------------------------------------------------
+Message: Hey Boys. Want hot XXX pics sent direct 2 ur phone? Txt PORN to 69855, 24Hrs free and then just 50p per day. To stop text STOPBCM SF WC1N3XX
+True label: ❗spam, Predicted label: ❗spam
+--------------------------------------------------------------------------------
+Message: What type of stuff do you sing?
+True label: ✅ ham, Predicted label: ✅ ham
+--------------------------------------------------------------------------------
+```
